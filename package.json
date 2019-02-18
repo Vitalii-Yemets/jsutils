@@ -1,0 +1,24 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "The helper functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitalii-Yemets/js_utils.git"
+  },
+  "keywords": [
+    "javascript",
+    "helper",
+    "functions"
+  ],
+  "author": "vitalii.yemets@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitalii-Yemets/js_utils/issues"
+  },
+  "homepage": "https://github.com/Vitalii-Yemets/js_utils#readme"
+}
