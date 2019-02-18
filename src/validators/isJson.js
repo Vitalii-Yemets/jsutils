@@ -7,5 +7,3 @@ module.exports.isJson = str => {
     }
     return typeof parsedStr === 'object'
 }
-
-export default isJson
