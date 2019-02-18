@@ -7,8 +7,3 @@ export const ltrim = (str, chars) => str.replace(chars ? new RegExp(`^[${chars}]
 
 export const trim = (str, chars) => rtrim(ltrim(str, chars), chars)
 
-module.exports = {
-    rtrim,
-    ltrim,
-    trim
-}

@@ -1,4 +1,4 @@
-module.exports.isJson = str => {
+const isJson = str => {
     let parsedStr = str
     try {
         parsedStr = JSON.parse(str)
@@ -7,3 +7,5 @@ module.exports.isJson = str => {
     }
     return typeof parsedStr === 'object'
 }
+
+export default isJson

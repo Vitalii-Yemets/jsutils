@@ -1,4 +1,4 @@
-module.exports.toBytes = str => {
+const toBytes = str => {
     let ch, st, re = []
 
     for (let i = 0; i < str.length; i++) {
@@ -15,3 +15,5 @@ module.exports.toBytes = str => {
 
     return re
 }
+
+export default toBytes

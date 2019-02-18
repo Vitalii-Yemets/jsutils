@@ -11,7 +11,7 @@
 //     </span>
 // }]
 
-module.exports.replacer = options => {
+const replacer = options => {
     let key = 0
 
     const withRegex = (option, input) => {
@@ -52,3 +52,5 @@ module.exports.replacer = options => {
         return input
     }
 }
+
+export default replacer

@@ -1,6 +1,5 @@
 import isEmpty from './isEmpty'
 import isLength from './isLength'
-import isWalletAddress from './isWalletAddress'
 
 const ValidationMethods = {
     REQUIRED: 'required',
@@ -8,7 +7,7 @@ const ValidationMethods = {
     REGEXP: 'regexp',
 }
 
-class StringValidator {
+export class StringValidator {
     constructor() {
         this.rules = {}
         this.errors = {}
@@ -108,5 +107,3 @@ class StringValidator {
         return this.errors
     }
 }
-
-module.exports.StringValidator = StringValidator

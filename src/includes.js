@@ -1,1 +1,3 @@
-module.exports.includes = (array, element) => array.some(item => item === element)
+const includes = (array, element) => array.some(item => item === element)
+
+export default includes

@@ -1,4 +1,4 @@
-module.exports.isLength = (str, options) => {
+const isLength = (str, options) => {
     let min, max
 
     const hasMinMaxProps = options =>
@@ -14,3 +14,5 @@ module.exports.isLength = (str, options) => {
     const len = str.length - surrogatePairs.length
     return len >= min && (typeof max === 'undefined' || len <= max)
 }
+
+export default isLength
