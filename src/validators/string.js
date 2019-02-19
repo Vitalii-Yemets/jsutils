@@ -59,20 +59,6 @@ export class StringValidator {
 
     _lengthValidation(value) {
         if (Reflect.has(this.rules, 'length')) {
-            // const { min, max, includeMinMaxValue = true } = this.rules.length
-
-            // if ((includeMinMaxValue && min > value) || (min >= value)) {
-            //     this.errors = { ...this.errors, lengthError: { minError: true } }
-            // } else if (Reflect.has(this.errors.lengthError, 'minError')) {
-            //     delete this.errors.lengthError.minError
-            // }
-
-            // if ((includeMinMaxValue && max < value) || (max <= value)) {
-            //     this.errors = { ...this.errors, lengthError: { maxError: true } }
-            // } else if (Reflect.has(this.errors.lengthError, 'maxError')) {
-            //     delete this.errors.lengthError.maxError
-            // }
-
             if (isLength(value, this.rules.length)) {
                 this.errors = { ...this.errors, lengthError: true }
             } else if (Reflect.has(this.errors, 'lengthError')) {
