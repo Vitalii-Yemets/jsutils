@@ -7,7 +7,7 @@ const ValidationMethods = {
     REGEXP: 'regexp',
 }
 
-export class StringValidator {
+export default class StringValidator {
     constructor() {
         this.rules = {}
         this.errors = {}
@@ -47,6 +47,7 @@ export class StringValidator {
                 flags: options.flags
             }
         }
+        return this
     }
 
     _requiredValidation(value) {

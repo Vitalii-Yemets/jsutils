@@ -13,10 +13,10 @@ import isEmpty from './src/validators/isEmpty'
 import isJson from './src/validators/isJson'
 import isLength from './src/validators/isLength'
 import isWalletAddress from './src/validators/isWalletAddress'
-import { StringValidator } from './src/validators/string'
+import StringValidator from './src/validators/string'
 
 
-export default {
+export const jsutils = {
     convertors: {
         fromUtf8,
         toBytes,
