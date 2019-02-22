@@ -1,5 +1,5 @@
 {
-  "name": "js_utils",
+  "name": "jsutils",
   "version": "1.0.1",
   "description": "The helper functions",
   "main": "index.js",
