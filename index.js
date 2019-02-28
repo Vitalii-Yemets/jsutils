@@ -1,8 +1,11 @@
-import first from './src/first'
-import includes from './src/includes'
-import indexOf from './src/indexOf'
-import replacer from './src/replacer'
-import { ltrim, rtrim, trim } from './src/trim'
+import first from './src/arrays/first'
+import includes from './src/arrays/includes'
+import indexOf from './src/arrays/indexOf'
+import and from './src/arrays/and'
+import mergeUnique from './src/arrays/mergeUnique' 
+
+import replacer from './src/text/replacer'
+import { ltrim, rtrim, trim } from './src/text/trim'
 
 import fromUtf8 from './src/convertors/fromUtf8'
 import toBytes from './src/convertors/toBytes'
@@ -30,10 +33,14 @@ export const jsutils = {
         isWalletAddress,
         StringValidator
     },
-    utils: {
+    arrays: {
         first,
         includes,
         indexOf,
+        and,
+        mergeUnique
+    },
+    text: {
         replacer,
         ltrim,
         rtrim,
