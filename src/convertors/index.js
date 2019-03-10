@@ -3,7 +3,7 @@ import toBytes from './toBytes'
 import toDate from './toDate'
 import toUtf8 from './toUtf8'
 
-export default {
+export const Convertors = {
     fromUtf8,
     toBytes,
     toDate,
