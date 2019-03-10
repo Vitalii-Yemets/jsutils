@@ -1,15 +1,15 @@
 export interface IsEmptyCompareOptions {
     ignoreWhitespase: boolean
 }
-export function isEmpty(str: string, options?: IsEmptyCompareOptions): boolean
+export declare function isEmpty(str: string, options?: IsEmptyCompareOptions): boolean
 
-export function isJson(str: string): boolean
+export declare function isJson(str: string): boolean
 
 export interface IsLengthCompareOptions {
     min: number
     max: number
 }
-export function isLength(str: string, options: IsLengthCompareOptions): boolean
+export declare function isLength(str: string, options: IsLengthCompareOptions): boolean
 
 export interface ValidationErrors {
     requiredError: boolean
