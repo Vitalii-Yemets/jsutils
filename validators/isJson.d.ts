@@ -1,1 +1,0 @@
-export function isJson(str: string): boolean

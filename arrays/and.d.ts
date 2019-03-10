@@ -1,1 +1,0 @@
-export function and<T, V>(array1: Array<T>, array2: Array<V>): Array<[T, V]>

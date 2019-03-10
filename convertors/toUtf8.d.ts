@@ -1,1 +1,0 @@
-export function toUtf8(str: string): Array<number | any>
