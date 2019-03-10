@@ -1,7 +1,7 @@
-import ArrayHelpers from './src/arrays'
-import Convert from './src/convertors'
-import TextHelpers from './src/text'
-import Validatorhelpers from './src/validators'
+import * as ArrayHelpers from './src/arrays'
+import * as Convert from './src/convertors'
+import * as TextHelpers from './src/text'
+import * as Validatorhelpers from './src/validators'
 
 export {
     ArrayHelpers,
