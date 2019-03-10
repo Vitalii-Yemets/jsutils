@@ -1,6 +1,6 @@
 {
   "name": "jsutils",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "The helper functions",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "vitalii.yemets@outlook.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vitalii-Yemets/js_utils/issues"
+    "url": "https://github.com/Vitalii-Yemets/jsutils/issues"
   },
-  "homepage": "https://github.com/Vitalii-Yemets/js_utils#readme"
+  "homepage": "https://github.com/Vitalii-Yemets/jsutils#readme"
 }
