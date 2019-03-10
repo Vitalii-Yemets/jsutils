@@ -5,7 +5,7 @@ import mergeUnique from './mergeUnique'
 import isDifferent from './isDifferent'
 import isIncludes from './isIncludes'
 
-export {
+export default {
     first,
     indexOf,
     and,
