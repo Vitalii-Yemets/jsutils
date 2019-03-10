@@ -1,9 +1,9 @@
 import first from './src/arrays/first'
-import includes from './src/arrays/includes'
 import indexOf from './src/arrays/indexOf'
 import and from './src/arrays/and'
 import mergeUnique from './src/arrays/mergeUnique'
 import isDifferent from './src/arrays/isDifferent'
+import isIncludes from './src/arrays/isIncludes'
 
 import replacer from './src/text/replacer'
 import { ltrim, rtrim, trim } from './src/text/trim'
@@ -36,7 +36,7 @@ export const jsutils = {
     },
     arrays: {
         first,
-        includes,
+        isIncludes,
         indexOf,
         and,
         mergeUnique,
