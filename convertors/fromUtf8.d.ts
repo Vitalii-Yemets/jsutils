@@ -1,0 +1,1 @@
+export function fromUtf8(str: string): string

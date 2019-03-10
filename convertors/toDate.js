@@ -1,5 +1,5 @@
 const toDate = date => {
-    dt = Date.parse(date)
+    const dt = Date.parse(date)
     return !isNaN(dt) ? new Date(dt) : null
 }
 

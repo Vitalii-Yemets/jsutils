@@ -1,0 +1,1 @@
+export function first<T>(array: Array<T>, filter: (el: T) => boolean): T | null
