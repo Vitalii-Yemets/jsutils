@@ -4,7 +4,7 @@ export interface ValidationErrors {
     regexpError: boolean
 }
 
-declare class StringValidator {
+export declare class StringValidator {
     public static create(): StringValidator
     public required(): StringValidator
     public length(options: { min: number, max: number }): StringValidator
