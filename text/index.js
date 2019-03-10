@@ -1,7 +1,7 @@
 import replacer from './replacer'
 import { ltrim, rtrim, trim } from './trim'
 
-export const Texthelpers = {
+export {
     replacer,
     ltrim,
     rtrim,

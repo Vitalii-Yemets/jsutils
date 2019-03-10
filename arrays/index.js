@@ -5,7 +5,7 @@ import mergeUnique from './mergeUnique'
 import isDifferent from './isDifferent'
 import isIncludes from './isIncludes'
 
-export const ArrayHelpers = {
+export {
     first,
     indexOf,
     and,
