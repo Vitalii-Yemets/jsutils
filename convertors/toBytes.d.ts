@@ -1,0 +1,1 @@
+export function toBytes(str: string): Array<number>

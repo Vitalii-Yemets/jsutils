@@ -1,0 +1,1 @@
+export function isInclude<T>(array: Array<T>, selector: T | ((el: T) => boolean)): boolean

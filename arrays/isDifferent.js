@@ -1,20 +1,22 @@
-const isDifferent = (arr1, arr2, predicate) => {
-    if (!(Array.isArray(arr1) || Array.isArray(arr2))) {
+const isDifferent = (array1, array2, predicate) => {
+    if (!(Array.isArray(array1) || Array.isArray(array2))) {
         return true
     }
 
-    if (arr1.length !== arr2.length) {
+    if (array1.length !== array2.length) {
         return true
     }
 
-    for (let i = 0, l = arr1.length; i < l; i++) {
-        if (!isDifferent(arr1[i], arr2[i])) {
+    for (let i = 0, l = array1.length; i < l; i++) {
+        if (!isDifferent(array1[i], array2[i])) {
             return false
         }
-        else if (predicate(arr1[i], arr2[i])) {
+        else if (predicate(array1[i], array2[i])) {
             return false
         }
     }
 
     return false
 }
+
+export default isDifferent

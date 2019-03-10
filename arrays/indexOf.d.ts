@@ -1,0 +1,1 @@
+export function indexOf<T>(array: Array<T>, filter: (el: T) => boolean): number

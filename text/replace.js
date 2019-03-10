@@ -11,7 +11,7 @@
 //     </span>
 // }]
 
-const replacer = options => {
+const replace = options => {
     let key = 0
 
     const withRegex = (option, input) => {
@@ -53,4 +53,4 @@ const replacer = options => {
     }
 }
 
-export default replacer
+export default replace

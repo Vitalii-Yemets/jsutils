@@ -1,5 +1,5 @@
 import indexOf from './indexOf'
 
-const mergeUnique = (arr1, arr2, filterCallback) => arr1.concat(arr2.filter(el2 => indexOf(arr1, el1 => filterCallback(el1, el2)) === -1))
+const mergeUnique = (array1, array2, filter) => array1.concat(array2.filter(el2 => indexOf(array1, el1 => filter(el1, el2)) === -1))
 
 export default mergeUnique

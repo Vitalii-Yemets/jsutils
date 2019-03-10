@@ -1,8 +1,12 @@
-import replacer from './replacer'
-import { ltrim, rtrim, trim } from './trim'
+import replace from './replace'
+import {
+    ltrim,
+    rtrim,
+    trim
+} from './trim'
 
 export {
-    replacer,
+    replace,
     ltrim,
     rtrim,
     trim

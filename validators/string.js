@@ -20,7 +20,7 @@ export default class StringValidator {
     required() {
         this.rules = {
             ...this.rules,
-            required: true
+            [ValidationMethods.REQUIRED]: true
         }
         return this
     }
@@ -31,7 +31,7 @@ export default class StringValidator {
     length(options) {
         this.rules = {
             ...this.rules,
-            length: options
+            [ValidationMethods.LENGTH]: options
         }
         return this
     }
@@ -42,7 +42,7 @@ export default class StringValidator {
     regexp(options) {
         this.rules = {
             ...this.rules,
-            regexp: {
+            [ValidationMethods.REGEXP]: {
                 pattern: options.pattern,
                 flags: options.flags
             }

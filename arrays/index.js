@@ -3,7 +3,7 @@ import indexOf from './indexOf'
 import and from './and'
 import mergeUnique from './mergeUnique'
 import isDifferent from './isDifferent'
-import isIncludes from './isIncludes'
+import isInclude from './isInclude'
 
 export {
     first,
@@ -11,5 +11,5 @@ export {
     and,
     mergeUnique,
     isDifferent,
-    isIncludes
+    isInclude
 }

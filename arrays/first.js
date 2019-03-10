@@ -1,9 +1,9 @@
-const first = (arr, filterCallback) => {
+const first = (array, filterCallback) => {
     if (typeof filterCallback === 'function') {
         let result
-        return arr.some(v => { result = v; return filterCallback(v) }) ? result : undefined
+        return array.some(v => { result = v; return filterCallback(v) }) ? result : null
     } else {
-        return arr[0]
+        return array[0]
     }
 }
 
