@@ -2,7 +2,7 @@
   "name": "jsutils",
   "version": "3.3.0",
   "description": "Set of helpers",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "test"
   },
@@ -15,7 +15,7 @@
     "helper",
     "functions"
   ],
-  "author": "vitalii.yemets@outlook.com",
+  "author": "Vitalii Yemets <vitalii.yemets@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Vitalii-Yemets/jsutils/issues"
