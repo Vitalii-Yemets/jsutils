@@ -3,7 +3,7 @@ import Convert from './src/convertors'
 import TextHelpers from './src/text'
 import Validatorhelpers from './src/validators'
 
-export {
+export default {
     ArrayHelpers,
     Convert,
     TextHelpers,

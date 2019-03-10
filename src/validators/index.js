@@ -4,7 +4,7 @@ import isLength from './isLength'
 import isWalletAddress from './isWalletAddress'
 import StringValidator from './string'
 
-export {
+export default {
     isEmpty,
     isJson,
     isLength,

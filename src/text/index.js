@@ -1,7 +1,7 @@
 import replacer from './replacer'
 import { ltrim, rtrim, trim } from './trim'
 
-export {
+export default {
     replacer,
     ltrim, rtrim, trim
 }
