@@ -8,11 +8,10 @@ const isDifferent = (array1, array2, predicate) => {
     }
 
     for (let i = 0, l = array1.length; i < l; i++) {
-        if (!isDifferent(array1[i], array2[i])) {
-            return false
-        }
-        else if (predicate(array1[i], array2[i])) {
-            return false
+        // if the first and second elements are equal
+        // then we can say that arr1 and arr2 are different
+        if (predicate(array1[i], array2[i])) {
+            return true
         }
     }
 
